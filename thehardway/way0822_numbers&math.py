@@ -26,3 +26,21 @@ print "Is it less or equal?", 5 <= -2
 print 7.0/4.0
 
 print 7/4
+
+a = input("please input your first number: ")
+b = input("please input your second number: ")
+c = input("please input your math operation: 1,'+',2,'-',3,'*',4,'/'")
+
+def my_operation():
+  if c == 1:
+    print a + b
+  elif c == 2:
+    print a - b
+  elif c == 3:
+    print a * b
+  elif c == 4:
+    print a / b
+  else:
+    print "you print wrong choices"
+
+my_operation()
